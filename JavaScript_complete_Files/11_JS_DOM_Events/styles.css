@@ -1,0 +1,25 @@
+section{
+    background-color: lightgray;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+}
+input[type='text']{
+    font-size: 18px;
+    height: 35px;
+    outline: none;
+}
+button{
+    font-size: 18px;
+    padding: 10px 25px;
+}
+#span{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Comic Sans MS",sans-serif;
+}
+span{
+    font-size: 22px;
+    font-weight: bold;
+    color: red;
+}

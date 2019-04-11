@@ -1,0 +1,97 @@
+body{
+    font-family: Arial,sans-serif;
+}
+.register-section{
+    text-align: center;
+    background-color: #5de25d;
+    width: 300px;
+    margin: auto;
+    padding: 15px;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+input[type='text'],input[type='email'],input[type='number']{
+    font-size: 18px;
+    margin: 5px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+select{
+    font-size: 20px;
+    height: 35px;
+    margin: 5px;
+    width: 220px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+input[type='submit']{
+    background-color:forestgreen;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 25px;
+    width: 210px;
+    border-radius: 5px;
+    outline: none;
+}
+input[type='submit']:hover{
+    background-color: #5de25d;
+    box-shadow: 0 0 5px black;
+}
+.table-section{
+    text-align: center;
+}
+table{
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 0 0 5px black;
+}
+table , th , td{
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+table thead{
+    background-color: #5de25d;
+    color: white;
+}
+table tbody tr:hover{
+    background-color: lightgreen;
+}
+.delete{
+    color: red;
+}
+.fa{
+    background-color: white;
+    color: #185858;
+    padding: 10px;
+    margin-right: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 5px black;
+}
+.fa:hover{
+    background-color: forestgreen;
+    color: white;
+    box-shadow: 0 0 5px white;
+}
+
+/* ------------ Alert Messages -------------- */
+#alert-div{
+    text-align: center;
+
+}
+#alert-div p{
+    background-color: #5de25d;
+    width: 300px;
+    margin: 10px auto;
+    color: white;
+    font-size: 18px;
+    padding: 7px;
+    border-radius: 5px;
+}

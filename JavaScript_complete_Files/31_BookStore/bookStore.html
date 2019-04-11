@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Book Store</title>
+</head>
+<body>
+
+<!-- Alert Message -->
+<div id="alert-div">
+
+</div>
+
+<!-- Form Section -->
+<section class="register-section">
+    <h2>Book Store</h2>
+    <form id="add-book-form">
+        <div class="form-group">
+            <i class="fa fa-book"></i>
+            <input type="text" placeholder="Book Name" id="book_name">
+        </div>
+        <div class="form-group">
+            <i class="fa fa-user-circle"></i>
+            <input type="text" placeholder="Author Name" id="author">
+        </div>
+        <div class="form-group">
+            <i class="fa fa-calculator"></i>
+            <input type="number" placeholder="ISBN Number" id="isbn">
+        </div>
+        <div class="form-group">
+            <i class="fa fa-list"></i>
+            <select id="category">
+                <option value="">Select a Category</option>
+                <option value="Computer Science">Computers</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Env Science">Env Science</option>
+                <option value="Mechanical">Mechanical</option>
+                <option value="Life Sciences">Life Sciences</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <i class="fa fa-share"></i>
+            <input type="submit" value="Add Book">
+        </div>
+    </form>
+</section>
+
+<!-- Table Section -->
+<section class="table-section">
+    <table>
+        <thead>
+        <tr>
+            <th>ISBN NUMBER</th>
+            <th>BOOK NAME</th>
+            <th>AUTHOR NAME</th>
+            <th>CATEGORY</th>
+            <th>#</th>
+        </tr>
+        </thead>
+        <tbody id="table_body">
+
+        </tbody>
+    </table>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>

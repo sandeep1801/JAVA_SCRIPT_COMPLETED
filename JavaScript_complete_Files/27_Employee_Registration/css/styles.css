@@ -1,0 +1,82 @@
+body{
+    font-family: Arial,sans-serif;
+}
+.register-section{
+    text-align: center;
+    background-color: #185858;
+    width: 300px;
+    margin: auto;
+    padding: 15px;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+input[type='text'],input[type='email']{
+    font-size: 18px;
+    margin: 5px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+select{
+    font-size: 20px;
+    height: 35px;
+    margin: 5px;
+    width: 220px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+input[type='submit']{
+    background-color:#278d8d;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 25px;
+    width: 210px;
+    border-radius: 5px;
+    outline: none;
+}
+input[type='submit']:hover{
+    background-color: #185858;
+    box-shadow: 0 0 5px white;
+}
+.table-section{
+    text-align: center;
+}
+table{
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 0 0 5px black;
+}
+table , th , td{
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+table thead{
+    background-color: #185858;
+    color: white;
+}
+table tbody tr:hover{
+    background-color: lightgray;
+}
+.delete{
+    color: red;
+}
+.fa{
+    background-color: white;
+    color: #185858;
+    padding: 10px;
+    margin-right: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 5px black;
+}
+.fa:hover{
+    background-color: #185858;
+    color: white;
+    box-shadow: 0 0 5px white;
+}

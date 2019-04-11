@@ -1,0 +1,30 @@
+body{
+    font-family: Arial,sans-serif;
+}
+section{
+    text-align: center;
+    padding: 15px;
+}
+table{
+    width: 100%;
+    margin: 10px;
+    box-shadow: 0 0 10px black;
+}
+button{
+    padding: 14px 25px;
+    font-size: 25px;
+}
+table , td , th{
+    text-align: center;
+    border: 2px solid orangered;
+    border-collapse: collapse;
+    padding: 10px;
+}
+table thead{
+    background-color: orangered;
+    color: white;
+}
+table tbody{
+    background-color: lightsalmon;
+    font-size: 18px;
+}

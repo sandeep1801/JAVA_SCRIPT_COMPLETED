@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS DOM Manipulation</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+    <a href="#">JS DOM Manipulation</a>
+</nav>
+
+<!-- JavaScript Event Handling -->
+<section>
+    <h2 id="msg"></h2>
+    <button type="button" onclick="displayWishMessage('green','Good Morning')">Good Morning</button>
+    <button type="button" onclick="displayWishMessage('blue','Good Afternoon')">Good Afternoon</button>
+    <button type="button" onclick="displayWishMessage('orangered','Good Evening')">Good Evening</button>
+    <button type="button" onclick="displayWishMessage('purple','Good Night')">Good Night</button>
+</section>
+
+
+<!-- JavaScript Event Listeners -->
+<section>
+    <h2 id="wish"></h2>
+    <button type="button" id="gm">Good Morning</button>
+    <button type="button" id="ga">Good Afternoon</button>
+    <button type="button" id="ge">Good Evening</button>
+    <button type="button" id="gn">Good Night</button>
+</section>
+
+
+<!-- Image Change -->
+<section>
+    <img id="image" src="../img/image5.jpeg">
+    <button onclick="changeImage()">Change</button>
+</section>
+
+<script src="10_script.js"></script>
+
+
+<!--------------image gallery --------->
+<section>
+    <img id="img" src="../img/image1.jpg.">
+    <button onclick="changeImg()">Change</button>
+</section>
+<script src="image_gallery.js"></script>
+</body>
+</html>
